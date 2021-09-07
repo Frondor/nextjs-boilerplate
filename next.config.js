@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const config = {
   reactStrictMode: true,
+  sassOptions: {
+    prependData: '@import "./styles/theming";',
+  },
 }
+
+const { withGlobalCss } = require('next-global-css')
+
+const withConfig = withGlobalCss()
+
+module.exports = withConfig(config)
