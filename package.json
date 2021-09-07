@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "npm run lint --silent -- --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest"
   },
   "dependencies": {
     "bootstrap": "5.1.0",
