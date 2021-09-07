@@ -1,5 +1,6 @@
 {
   "extends": [
+    "plugin:jest/all",
     "eslint:recommended",
     "next",
     "next/core-web-vitals",
@@ -8,6 +9,7 @@
   ],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "jest/prefer-expect-assertions": 0
   }
 }
