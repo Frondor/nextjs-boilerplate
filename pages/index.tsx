@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Button from '../components/button'
+import { Col, Container, Row } from '../components/grid'
 
 const Home: NextPage = () => {
   return (
@@ -13,8 +14,16 @@ const Home: NextPage = () => {
 
       <main>
         <h1>Hello World!</h1>
-        <Button variant="primary">Fede</Button>
-        <Button variant="secondary">Fede</Button>
+        <Container>
+          <Row>
+            <Col>
+              <Button variant="primary">Fede</Button>
+            </Col>
+            <Col>
+              <Button variant="secondary">Fede</Button>
+            </Col>
+          </Row>
+        </Container>
       </main>
     </div>
   )
