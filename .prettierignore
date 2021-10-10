@@ -1,0 +1,5 @@
+.next
+__mocks__
+node_modules
+public
+package-lock.json
