@@ -4,7 +4,7 @@ import type { ReactComponent } from '../types'
 
 const kindClass = (kind: ButtonKind, outlined?: boolean, link?: boolean) => {
   const name = link ? 'link' : kind
-  return `btn-${outlined ? 'outline' : ''}-${name}`
+  return `btn-${outlined ? 'outline' : ''}${name}`
 }
 
 export type ButtonKind =
