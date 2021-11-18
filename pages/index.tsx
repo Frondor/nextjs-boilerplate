@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>Hello World!</h1>
+        <h1>Hello Worldd!</h1>
         <Button kind="primary">Fede</Button>
         <Button kind="secondary">Fede</Button>
       </main>

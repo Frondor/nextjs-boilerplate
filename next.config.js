@@ -4,6 +4,7 @@ const config = {
   sassOptions: {
     prependData: '@import "./styles/theming";',
   },
+  swcMinify: true,
 }
 
 const { withGlobalCss } = require('next-global-css')
